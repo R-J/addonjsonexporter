@@ -8,6 +8,7 @@ class AddonJsonExporterPlugin extends Gdn_Plugin {
         $sender->setData('Title', t('addon.json Exporter'));
 
         $availablePlugins = Gdn::pluginManager()->availablePlugins();
+        ksort($availablePlugins);
 
         $plugins = [];
 

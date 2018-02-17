@@ -5,7 +5,7 @@ echo helpAsset(
         t('About %s'),
         'addon.json Exporter'
     ),
-    t('Shows you the currently used meta information for a plugin in a format you ca directly use for the addon.json file')
+    t('Shows you the currently used meta information for a plugin in a format you can directly use for the addon.json file')
 );
 ?>
 
@@ -25,6 +25,6 @@ echo helpAsset(
     var textbox = document.getElementById('Form_addon-dot-json');
 
     document.getElementById('Form_Plugin').addEventListener('change', function(){
-        textbox.value = JSON.stringify(plugins[this.value], null, 2);
+        textbox.value = JSON.stringify(plugins[this.value], null, 4);
     });
 </script>
