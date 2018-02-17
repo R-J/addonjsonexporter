@@ -1,0 +1,22 @@
+{
+    "name": "addon.json Exporter",
+    "description": "Exports the addon.json for a plugin if that file doesn't exist yet",
+    "version": "0.0.1",
+    "license": "MIT",
+    "type": "addon",
+    "key": "addonjsonexporter",
+    "mobileFriendly": true,
+    "hasLocale": true,
+    "settingsUrl": "/settings/addonjsonexporter",
+    "pluginUrl": "https://github.com/r-j/addonjsonexporter",
+    "usePopupSettings": false,
+    "authors": [
+        {
+            "name": "Robin Jurinka",
+            "homepage": "https://open.vanillaforums.com/profile/r_j"
+        }
+    ],
+    "require": {
+        "vanilla": ">=2.5"
+    }
+}
